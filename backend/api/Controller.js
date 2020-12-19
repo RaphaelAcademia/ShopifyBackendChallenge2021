@@ -36,7 +36,9 @@ exports.getAllImages = async (request, response) => {
 exports.updateImage = async (request, response) => {
     try{
         var imageToUpdate = await Image.findById(request.params.id).exec();
+        var originalFilepath = imageToUpdate.Filepath;
         imageToUpdate.set(request.body);
+        imageToUpdate.Filepath = originalFilepath;
         var result =  await imageToUpdate.save();
         response.json(result);
     }
