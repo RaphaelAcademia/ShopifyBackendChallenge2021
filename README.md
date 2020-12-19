@@ -42,7 +42,6 @@ Request content example
 ```
 
 ### Installing
-The on
 1. Clone the repo
 2. Navigate to the backend directory and install the NPM packages through `npm install`
-3. Start the application through either `npm start` or `nodemon`
+3. Start the application using either `npm start` or `nodemon`
