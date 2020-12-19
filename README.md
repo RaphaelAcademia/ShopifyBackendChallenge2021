@@ -1,5 +1,5 @@
 # ShopifyBackendChallenge2021
-This is my solution for the Shopify Backend Developer Intern Challenge - 2021. It consists of an API server that is supposed to servce as a backend for an image repository. 
+This is my solution for the Shopify Backend Developer Intern Challenge - 2021. It consists of an API server that is supposed to serve as a backend for an image repository. 
 The API was built using MongoDB, ExpressJS, and NodeJS. To add an image, simply add the image to the images folder and then use the **Add an image** endpoint.
 
 The API has 4 endpoints:
