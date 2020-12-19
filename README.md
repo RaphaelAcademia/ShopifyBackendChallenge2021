@@ -27,6 +27,7 @@ Response content example
         "Timestamp": "2020-12-19T01:03:36.359Z",
         "__v": 0
     }
+]
 ```
 - **View an image**: `GET /image/:id`
 
