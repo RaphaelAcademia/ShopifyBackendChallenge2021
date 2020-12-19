@@ -4,6 +4,7 @@ The API was built using MongoDB, ExpressJS, and NodeJS. To add an image, simply 
 
 The API has 4 endpoints:
 - **Add an image**: `POST /image`
+
 Request content example
 ```json
 {
@@ -14,6 +15,7 @@ Request content example
 }
 ```
 - **Get all images**: `GET /image`
+
 Response content example
 ```json
 [
@@ -29,6 +31,7 @@ Response content example
 - **View an image**: `GET /image/:id`
 
 - **Update an image**: `PUT /image/:id`
+
 Request content example
 ```json
 {
