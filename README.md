@@ -10,7 +10,7 @@ Request content example
 {
 	"Filepath": "toronto.jpg",
 	"Price": 10.50,
-  "Discount": 1.00,
+  	"Discount": 1.00,
 	"Quantity": 12
 }
 ```
@@ -36,7 +36,7 @@ Request content example
 ```json
 {
 	"Price": 11.58,
-  "Discount": 1.25,
+  	"Discount": 1.25,
 	"Quantity": 55
 }
 ```
